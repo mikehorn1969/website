@@ -3,42 +3,28 @@
 	<head>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Wedding</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<script
-	  src="http://code.jquery.com/jquery-3.4.1.min.js"
-	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-	  crossorigin="anonymous"></script>
-	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" class="style">
 		<link rel="stylesheet" type="text/css" href="mikehorn.css">
 	</head>
 
-	<body id="wedding-body">
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="glyphicon glyphicon-menu-hamburger nav-before" aria-hidden="true"></span>
-		      </button>
-		      <a class="navbar-brand" href="index.html">mikehorn.net</a>
-		    </div>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-fixed-top">
+			<a class="navbar-brand" href="index.html">mikehorn.net</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		    <!-- Collect the nav links for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		        <li><a href="index.html">Home</a></li>
-		        <li><a href="about.html">About</a></li>
-		        <li><a href="contact.html">Contact</a></li>
-		        <li><a href="donate.html">Donate</a></li>
-		        <li class="active"><a href="#">Wedding</a></li>
-		        <li><a href="https://blog.mikehorn.net" target="_blank">Blog</a></li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<a class="nav-link active" href="index.html">Home</a>
+  			<a class="nav-link" href="about.html">About</a>
+  			<a class="nav-link" href="contact.html">Contact</a>
+				<a class="nav-link" href="donate.html">Donate</a>
+				<a class="nav-link active" href="#">Wedding</a>
+				<a class="nav-link" href="https://blog.mikehorn.net" target="_blank">Blog</a>
+			</div>			
+		</nav> 
 
-		<div class="container">
+		<div class="jumbotron" id="wedding-body">
 			<div id="child-content">
 				<h2>10th August 2019</h2>
 				<p>Bena and I are getting married in Nairobi! Check back here for photos, stories, etc.</p>
@@ -46,59 +32,72 @@
 				<p>10:00 Marriage ceremony at Catholic University of East Africa chapel</p>
 				<p>12:00 Reception at Brookhaven Gardens, Karen</p>					
 			</div>
+		</div>
 
-			<div class="row"> <!-- row 2 -->
-				<div class="col-md-4 col-sm-6">
-					<a href="images/brookhaven 2.jpeg" class="thumbnail" target="_blank">
-						<img src="images/brookhaven 2.jpeg" alt="Banquet hall" class="img-responsive">
-						<div class="caption">
-							<p>The banquet hall</p>
+		<div class="container">
+			<div class="row border">
+				<div class="col-lg-4 col-md-6">
+					<div class="card" >
+							<img src="images/brookhaven 2.jpeg" alt="Banquet hall" class="img-responsive card-img-top">
+							<div class="card-body">
+								<a href="images/brookhaven 2.jpeg" class="card-link" target="_blank">
+									<p class="card-text">The Banquet Hall.</p>
+								</a>
+							</div>
 						</div>
-					</a>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card" >
+						<img src="images/brookhaven 5.jpeg" alt="Ornamental trees" class="img-responsive card-img-top">
+						<div class="card-body">
+							<a href="images/brookhaven 5.jpeg" class="card-link" target="_blank">
+								<p class="card-text">Ornamental trees.</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card" >
+						<img src="images/brookhaven 4.jpeg" alt="Swimming pool" class="img-responsive card-img-top">
+						<div class="card-body">
+							<a href="images/brookhaven 4.jpeg" class="card-link" target="_blank">
+								<p class="card-text">Swimming pool.</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card" >
+						<img src="images/brookhaven 6.jpeg" alt="Swimming pool bar" class="img-responsive card-img-top">
+						<div class="card-body">
+							<a href="images/brookhaven 6.jpeg" class="card-link" target="_blank">
+								<p class="card-text">Swimming pool bar.</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card" >
+						<img src="images/brookhaven 7.jpeg" alt="The reception field" class="img-responsive card-img-top">
+						<div class="card-body">
+							<a href="images/brookhaven 7.jpeg" class="card-link" target="_blank">
+								<p class="card-text">The reception field - empty of tents.</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card gallery-card" >
+						<img src="images/brookhaven 8.jpeg" alt="Swimming pool bar" class="img-responsive card-img-top">
+						<div class="card-body">
+							<a href="images/brookhaven 8.jpeg" class="card-link" target="_blank">
+								<p class="card-text">Deep in conversation at the swimming pool bar.</p>
+							</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
-					<a href="images/brookhaven 5.jpeg" class="thumbnail" target="_blank">
-						<img src="images/brookhaven 5.jpeg" alt="Ornamental trees" class="img-responsive">
-						<div class="caption">
-							<p>Ornamental trees</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<a href="images/brookhaven 4.jpeg" class="thumbnail" target="_blank">
-						<img src="images/brookhaven 4.jpeg" alt="Swimming pool" class="img-responsive">
-						<div class="caption">
-							<p>Swimming pool</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<a href="images/brookhaven 6.jpeg" class="thumbnail" target="_blank">
-						<img src="images/brookhaven 6.jpeg" alt="Swimming pool bar" class="img-responsive">
-						<div class="caption">
-							<p>Swimming pool bar</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<a href="images/brookhaven 7.jpeg" class="thumbnail" target="_blank">
-						<img src="images/brookhaven 7.jpeg" alt="The field" class="img-responsive">
-						<div class="caption">
-							<p>The field, empty of tents</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<a href="images/brookhaven 8.jpeg" class="thumbnail" target="_blank">
-						<img src="images/brookhaven 8.jpeg" alt="Swimming pool bar" class="img-responsive">
-						<div class="caption">
-							<p>Deep in conversation at swimming pool bar</p>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="thumbnail"> 
+					<div class="card"> 
 						<div class="embed-responsive embed-responsive-4by3">
 							<iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrookhavengardens%2Fphotos%2Fa.1444255572543844%2F2051904705112258%2F%3Ftype%3D3&width=500" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 							<!-- width="350" height="175" -->
@@ -110,5 +109,10 @@
 				</div>	
 			</div> <!-- row 2 -->
 		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 	</body>
 </html>

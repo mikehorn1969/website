@@ -20,11 +20,11 @@ html{
 
 #child-content{
 	text-align: centre;
-	padding-top: 15%;	
+	/*padding-top: 15%;*/	
 }
 
 #wedding-body{
-	background: url("images/andrew-itaga-pc5se3M4Xxc-unsplash.jpg");
+	background: url("images/invite background.jpeg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -46,4 +46,12 @@ html{
 
 .nav-before{
 	color: #9D9D9D;
+}
+
+.nav-link{
+	color: white !important;
+}
+
+.gallery-card{
+	width: 18rem;
 }
