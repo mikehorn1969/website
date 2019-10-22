@@ -10,7 +10,7 @@ html{
 	background-position: center;
 	background-repeat: no-repeat;
 	color: white;
-	padding-top: 12%;
+	padding-top: 15%;
 }
 
 #splash-content{
@@ -55,4 +55,21 @@ html{
 
 .nav-link .active{
 	color: grey;
+}
+
+img{
+	width: 10pc;
+}
+
+.home-link{
+	color: white;
+}
+
+.content-lg{
+	background-color: #dcdce3;
+	padding-top: 7%;
+}
+
+.whitebox{
+	background-color: #FFFFFF;
 }
