@@ -16,20 +16,12 @@ html{
 #splash-content{
 	text-align: right;
 	padding-top: 10%;
-	padding-right: 5%;
+/*	padding-right: 5%; */
 }
 
 #child-content{
 	text-align: centre;
 	/*padding-top: 15%;*/	
-}
-
-#wedding-body{
-	background: url("images/invite background.jpeg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: black;
 }
 
 .about-block-1 .col-md{
@@ -41,6 +33,15 @@ html{
 	color: #FFFFFF;
 }
 
+.nav{
+	top: 0;
+	height: 60x;
+}
+
+.nav-up{
+	top: -60;
+}
+
 .nav-before{
 	color: #9D9D9D;
 }
@@ -49,12 +50,12 @@ html{
 	color: white !important;
 }
 
-.gallery-card{
-	width: 18rem;
-}
-
 .nav-link .active{
 	color: grey;
+}
+
+.gallery-card{
+	width: 18rem;
 }
 
 img{
@@ -65,6 +66,11 @@ img{
 	color: white;
 }
 
+.page-link, .page-link:hover{
+	color: black;
+	background-color: #dcdce3;
+}
+
 .content-lg{
 	background-color: #dcdce3;
 	padding-top: 7%;
@@ -72,8 +78,11 @@ img{
 
 .whitebox{
 	background-color: #FFFFFF;
+	float: right;
+	padding-right: 5%;
 }
 
 .bodytext{
 	padding-bottom: 1em;
 }
+
